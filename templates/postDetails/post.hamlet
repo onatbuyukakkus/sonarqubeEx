@@ -1,0 +1,5 @@
+<h1>#{postProjectName post}
+
+<article .jumbotron>
+  #{postGithubLink post}
+  <button type="button" onclick="updateP">Update Project!</button>
