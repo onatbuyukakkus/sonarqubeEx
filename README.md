@@ -13,7 +13,7 @@ For Scanner, [download](http://docs.sonarqube.org/display/SCAN/Analyzing+with+So
 
 And place them in your home folder.
 
-You can edit your home folder, SonarQube server and scanner folder, your Sudo Password in MySonarEx.hs file.
+You can edit your home folder, SonarQube server and scanner folder, your Sudo Password in ```MySonarEx.hs``` file.
 
 ### Install MySql
 MySql database will be used by SonarQube.
