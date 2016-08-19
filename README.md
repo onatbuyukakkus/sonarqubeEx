@@ -10,7 +10,10 @@ Homebrew is a package manager for Mac OS X. You probably already have it. If you
 For SonarQube Server, [download](http://www.sonarqube.org/downloads/)
 
 For Scanner, [download](http://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
-And place them in your home folder, you can edit your home folder, SonarQube server and scanner folder in MySonarEx.hs file.
+
+And place them in your home folder.
+
+You can edit your home folder, SonarQube server and scanner folder, your Sudo Password in MySonarEx.hs file.
 
 ### Install MySql
 MySql database will be used by SonarQube.
