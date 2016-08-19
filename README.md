@@ -44,5 +44,7 @@ $ stack exec -- devnostics
 ### Ready To Go
 Now Yesod App is available at ```http://localhost:3000/```
 
+For usage, go to [USAGE.md] (https://github.com/onatbuyukakkus/sonarqubeEx/blob/master/USAGE.md)
+
 
 
