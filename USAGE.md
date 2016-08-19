@@ -1,48 +1,10 @@
 # sonarqubeEx
-Automated Sonarqube Execution from Github Reps with a Yesod App 
 
-## Install The Software
+At ```http://localhost:3000/``` you will see all projects.
 
-### Install homebrew (On Mac)
-Homebrew is a package manager for Mac OS X. You probably already have it. If you don't, get it as you will need it to install most other packages on Mac OS X.
+To add new a project go ```http://localhost:3000/posts/new```. You will be asked Project Name and Github Link (.git).
 
-### Install SonarQube
-For SonarQube Server, [download](http://www.sonarqube.org/downloads/)
+When you click Add Project button, project with the provided link will be pulled down to your home directory (see  ```MySonarEx.hs ```), SonarQube scanner will scan your project and you will be redirected to SonarQube dashboard: ```http://localhost:9000/sonar/```
 
-For Scanner, [download](http://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
-
-And place them in your home folder.
-
-You can edit your home folder, SonarQube server and scanner folder, your Sudo Password in ```MySonarEx.hs``` file.
-
-### Install MySql
-MySql database will be used by SonarQube.
-```bash
-$ brew install mysql
-```
-
-### Install Stack
-```bash
-$ brew install haskell-stack
-```
-
-### Install Yesod Command Line Tools
-```bash
-$ stack build yesod-bin cabal-install --install-ghc
-```
-
-### Compile Project
-```bash
-$ stack build
-```
-
-### Run Yesod App
-```bash
-$ stack exec -- devnostics
-```
-
-### Ready To Go
-Now Yesod App is available at ```http://localhost:3000/```
-
-
+If you commited, you can homepage, click on the project and you will see an update button. This button pulls down commits and run SonarQube, redirect you to SonarQube dashboard.
 
